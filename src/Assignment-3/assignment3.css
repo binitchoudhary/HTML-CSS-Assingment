@@ -1,7 +1,51 @@
 /* Our CSS file. */
 
 
-.container, .content {
-width: 100%;
+#container{
+width: 70%;
 height: 100%;
+background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.top-container{
+    padding: 20px;
+    display: block;
+    margin: 30px auto;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    background-color: #f2f2f2;
+}
+
+.bottom-container{
+    display: block;
+    padding: 20px;
+    margin: 0 auto;
+    width: 70%;
+    height: 80%;
+    margin-top: 90px;
+    text-align:left;
+    align-content: center;
+    background-color: #f2f2f2;
+}
+
+.text{
+    padding: 10px;
+    overflow: none;
+    width: inherit;
+    /* text-align: center; */
+}
+
+.iframe{
+    padding: 30px;
+    width: inherit;
+    height: 100%;
+    float: right;
+     
+}
+button{
+    background-color: black;
+    color: #fff;
 }
